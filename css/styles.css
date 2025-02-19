@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,6 +13,23 @@ header {
     text-align: center;
 }
 
+=======
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+>>>>>>> 5d509905a4b4fe2c43c35e9d98b6301cdc69964e
 nav ul {
     list-style: none;
     padding: 0;
@@ -19,7 +37,11 @@ nav ul {
 
 nav ul li {
     display: inline;
+<<<<<<< HEAD
     margin: 0 1rem;
+=======
+    margin: 0 10px;
+>>>>>>> 5d509905a4b4fe2c43c35e9d98b6301cdc69964e
 }
 
 nav ul li a {
@@ -27,6 +49,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 main {
     padding: 2rem;
 }
@@ -43,4 +66,47 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+=======
+section {
+    padding: 2rem 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.sub-projects {
+    margin-top: 2rem;
+}
+
+.sub-project {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.sub-project .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.sub-project .card-text {
+    font-size: 1rem;
+>>>>>>> 5d509905a4b4fe2c43c35e9d98b6301cdc69964e
 }
