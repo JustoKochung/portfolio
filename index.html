@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Justo Ochung'</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>Welcome to my portfolio! Here you can find my projects and learn more about me.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>ICT Project Term 2</h3>
+                <img src="images/project1.png" alt="Project Screenshot">
+                <p>This is a capstone project, which is part of formative assessment for ICT Integration in Education as a learning area leading to the award of a Diploma in Secondary Teacher Education. In this project, i leveraged on the power of Excel, Powepoint, Google meet, GitHub, VsCode, & Copilot to showcase my digital skills for a CBC competent teacher. The ICT in learning project is applicable for Schools, teachers, learning institutions, and governments aiming to introduce digital skills in learning.</p>
+                <a href="https://github.com/yourusername/project-repo" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Justo Ochung', a high school teacher with a passion for maths, integrated science, chemistry, and computer studies. I have experience in creating educational content, teaching, and assessing practical skills in these 4 learning areas. I enjoy working on projects that integrate ideas from sustainable living & education.</p>
+            <p>In my free time, I like to play volleyball, herding, or spending time with my family.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
