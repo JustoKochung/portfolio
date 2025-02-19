@@ -1,7 +1,26 @@
 body {
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
     color: #333;
+=======
+<<<<<<< HEAD
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+=======
+    font-family: 'Arial', sans-serif;
+>>>>>>> 50ae79d05594f83941b2f43d39089155718db0b5
     line-height: 1.6;
 }
 
@@ -17,6 +36,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
+>>>>>>> 5d509905a4b4fe2c43c35e9d98b6301cdc69964e
 nav ul {
     list-style: none;
     padding: 0;
@@ -24,7 +44,11 @@ nav ul {
 
 nav ul li {
     display: inline;
+<<<<<<< HEAD
+    margin: 0 1rem;
+=======
     margin: 0 10px;
+>>>>>>> 5d509905a4b4fe2c43c35e9d98b6301cdc69964e
 }
 
 nav ul li a {
@@ -33,6 +57,24 @@ nav ul li a {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+=======
 section {
     padding: 2rem 0;
 }
@@ -76,6 +118,7 @@ footer {
 
 .sub-project .card-text {
     font-size: 1rem;
+<<<<<<< HEAD
 }
 
 .btn-primary {
@@ -86,4 +129,7 @@ footer {
 .btn-secondary {
     background-color: #6c757d;
     border-color: #6c757d;
+=======
+>>>>>>> 5d509905a4b4fe2c43c35e9d98b6301cdc69964e
+>>>>>>> 50ae79d05594f83941b2f43d39089155718db0b5
 }
