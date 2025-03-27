@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justo Ochung'</title>
+    <title>Justo Ochung' - Educator & Grant Writer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f8f9fa;
         }
         header {
-            background-color: #007bff;
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
             color: #fff;
-            padding: 1rem 0;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .btn-cta {
+            background-color: #28a745;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin-top: 1.5rem;
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #007bff;
         }
         .nav-link {
             color: #fff !important;
@@ -39,109 +62,118 @@
             padding: 1rem 0;
             text-align: center;
         }
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-        }
-        .btn-secondary {
-            background-color: #6c757d;
-            border-color: #6c757d;
+        .social-icons a {
+            color: #fff;
+            margin: 0 0.5rem;
+            font-size: 1.5rem;
         }
     </style>
 </head>
 <body>
-    <header class="text-center">
-        <h1><b>Justo O. Ochung'</b></h1>
-        <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Hero Section -->
+    <header>
+        <h1>Welcome to Justo Ochung's Portfolio</h1>
+        <p>Empowering learners and educators through innovative teaching and grant writing expertise</p>
+        <a href="#contact" class="btn btn-cta">Get in Touch</a>
     </header>
+
+    <!-- Sticky Navigation -->
+    <nav class="sticky-nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <main class="container mt-5">
-        <section id="home" class="text-center">
-            <h2>Welcome</h2>
-            <p>Welcome to my portfolio! Here you can find my projects and learn more about me.</p>
+        <!-- Services Section -->
+        <section id="services" class="text-center">
+            <h2>Our Services</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tutoring</h5>
+                            <p class="card-text">Personalized tutoring in mathematics, science, and computer studies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Educational Content</h5>
+                            <p class="card-text">Creating engaging and practical educational materials for learners.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Grant Writing</h5>
+                            <p class="card-text">Expert grant writing services to secure funding for educational projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- Projects Section -->
         <section id="projects" class="mt-5">
             <h2>Projects</h2>
             <div class="project card">
                 <div class="card-body">
                     <h3 class="card-title">ICT TII/2025 Project</h3>
-                    <div class="details mt-3">
-                        <p>This is part of practicum projects in ICT integration in Education leading to an award for Diploma in Secondary Teacher Education</p>
-                        <p>You can view the project description here:</p>
-                        <iframe src="files/ICT-kttc%20project.pdf" width="100%" height="480"></iframe>
-                        <p>More details about the project...<a href="https://github.com/JustoKochung/portfolio" target="_blank" class="btn btn-primary">View on GitHub</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="sub-projects">
-                <h4>Sub-Projects</h4>
-                <div class="sub-project card">
-                    <div class="card-body">
-                        <h5 class="card-title">Task One</h5>
-                        <p class="card-text">Analysis of Assessment Scores using Excel.</p>
-                        <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/JustoKochung/portfolio/raw/refs/heads/main/ICT%20Project.xlsx" width="100%" height="480"></iframe>
-                    </div>
-                </div>
-                <div class="sub-project card">
-                    <div class="card-body">
-                        <h5 class="card-title">Task Two</h5>
-                        <p class="card-text">Word Processing Activity. Collaborating using Google Docs, Editing & Proofreading in MS Word.</p>
-                        <iframe src="files/football.pdf" width="100%" height="480"></iframe>
-                    </div>
-                </div>
-                <div class="sub-project card">
-                    <div class="card-body">
-                        <h5 class="card-title">Task Three</h5>
-                        <p class="card-text">Organizing an ICT Safety training for Secondary School Teachers.</p>
-                        <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/JustoKochung/portfolio/raw/refs/heads/main/CONFERENCE%20NOTES.pptx" width="100%" height="480"></iframe>
-                        <p>Watch the training video below:</p>
-                        <video width="100%" height="480" controls>
-                            <source src="files/video2049416557.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-                <div class="sub-project card">
-                    <div class="card-body">
-                        <h5 class="card-title">Task Four</h5>
-                        <p class="card-text">Creating an e-portfolio for the whole project.</p>
-                        <a href="https://justokochung.github.io/portfolio/" target="_blank" class="btn btn-secondary">e-portfolio</a>
-                    </div>
+                    <p>This is part of practicum projects in ICT integration in Education leading to an award for Diploma in Secondary Teacher Education</p>
+                    <iframe src="files/ICT-kttc%20project.pdf" width="100%" height="480"></iframe>
                 </div>
             </div>
         </section>
-        <section id="about" class="mt-5">
-            <h2>About Me</h2>
-            <p>Hi, I'm Justo Ochung', a high school teacher with a passion for maths, integrated science, chemistry, and computer studies. I have experience in creating educational content, teaching, and assessing practical skills in these 4 learning areas. I enjoy working on projects that integrate ideas from sustainable living & education.</p>
-            <p>In my free time, I like to play volleyball, herding, or spending time with my family</p>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="mt-5 text-center">
+            <h2>What People Say</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"Justo's tutoring helped me excel in mathematics. Highly recommended!"</p>
+                        <footer class="blockquote-footer">A Satisfied Student</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"The grant writing services were exceptional. We secured funding for our project!"</p>
+                        <footer class="blockquote-footer">An Organization</footer>
+                    </blockquote>
+                </div>
+            </div>
         </section>
+
+        <!-- Contact Section -->
         <section id="contact" class="mt-5">
             <h2>Contact</h2>
             <form action="https://formspree.io/f/your-form-id" method="POST" class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" class="form-control" required>
-                
                 <label for="email" class="mt-3">Email:</label>
                 <input type="email" id="email" name="email" class="form-control" required>
-                
                 <label for="message" class="mt-3">Message:</label>
                 <textarea id="message" name="message" class="form-control" required></textarea>
                 <button type="submit" class="btn btn-primary mt-3">Send</button>
             </form>
         </section>
     </main>
-    <footer class="bg-primary text-white text-center py-3">
-        <p>&copy; 2025 My Portfolio</p>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Justo Ochung'</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
