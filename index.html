@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f8f9fa;
         }
         header {
-            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
             color: #fff;
             text-align: center;
             padding: 5rem 1rem;
@@ -67,14 +68,24 @@
             margin: 0 0.5rem;
             font-size: 1.5rem;
         }
+        .skills-section {
+            background-color: #f1f1f1;
+            padding: 2rem 0;
+        }
+        .skills-section h2 {
+            margin-bottom: 1.5rem;
+        }
+        .progress-bar {
+            background-color: #28a745;
+        }
     </style>
 </head>
 <body>
     <!-- Hero Section -->
     <header>
-        <h1>Welcome to Justo Ochung's Portfolio</h1>
-        <p>Empowering learners and educators through innovative teaching and grant writing expertise</p>
-        <a href="#contact" class="btn btn-cta">Get in Touch</a>
+        <h1 class="animate__animated animate__fadeInDown">Welcome to Justo Ochung's Portfolio</h1>
+        <p class="animate__animated animate__fadeInUp">Empowering learners and educators through innovative teaching and grant writing expertise</p>
+        <a href="#contact" class="btn btn-cta animate__animated animate__pulse animate__infinite">Get in Touch</a>
     </header>
 
     <!-- Sticky Navigation -->
@@ -83,6 +94,7 @@
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -120,14 +132,27 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="mt-5">
-            <h2>Projects</h2>
-            <div class="project card">
-                <div class="card-body">
-                    <h3 class="card-title">ICT TII/2025 Project</h3>
-                    <p>This is part of practicum projects in ICT integration in Education leading to an award for Diploma in Secondary Teacher Education</p>
-                    <iframe src="files/ICT-kttc%20project.pdf" width="100%" height="480"></iframe>
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section text-center">
+            <h2>My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Mathematics Tutoring</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Grant Writing</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Educational Content Creation</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%;">95%</div>
+                    </div>
                 </div>
             </div>
         </section>
